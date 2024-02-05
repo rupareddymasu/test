@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="../css/index.css"> -->
+    <style>
+        h1{
+            color: aliceblue !important;
+        }
+        /* tagname element selector */
+        .h_1{
+            color:aliceblue
+        }
+        /* class selector */
+
+        #h_id{
+            color: aliceblue;
+        }
+        /* id selector always should be unique we cant give multiple ids*/ 
+
+        h1,h2{
+            font-family: 'Courier New', Courier, monospace;
+            color:aliceblue
+        }
+
+        .h_1,.h_2,#h_id{
+            color: aliceblue;
+        }
+        /* grouping selector, group class, ids,all selectors */
+    
+       
+            /* background-color: aqua; */
+        
+      /* universal selector for adding style to entire doc */
+/* 
+     td{
+        background-color: aqua;
+     } */
+
+     .f_1{
+        background-color: grey;
+        background-color: aqua;
+     }
+
+     .f_2{
+        background-color: yellowgreen;
+       
+     }
+     .f_5{
+        background-color: khaki;
+     }
+
+     #f_3{
+        background-color: maroon;
+     }
+     .f_4{
+        background-color: pink;
+     }
+
+     .table{
+        border:0px  pink;
+        border-spacing: 5px;
+    }
+    /* td{
+        border: solid black;
+         border-collapse: collapse;
+         border-spacing: 10px ;
+    } */
+
+   
+
+    .f_6{
+        background-color: royalblue;
+       
+    }
+    #f_7{
+        background-color:gold ;
+    }
+
+    td{
+        text-align:center ;
+    }
+    .hello{
+        border: 2px solid black;
+        
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+            
+
+       
+
+
+        
+
+        /* border-color: black; */
+        /* border-collapse:collapse; */
+        
+    }
+    td{
+        /* border-radius: 10px; */
+      height: 100px;
+      width:100px;
+       /* border:2px solid black */
+        /* border-collapse: collapse; */
+    }
+
+    </style>
+    <!-- <link rel="stylesheet" href="../css/index.css"> -->
+</head>
+<body>
+    <!-- <h1 id="h_id">hii</h1>
+    <h2>hiiii</h2>
+    <h2 class="h_1">hiik</h2> -->
+<!-- 
+    <div class="table-container"> -->
+
+    <table class="hello">
+        <!-- <tr>
+            <th></th>
+            <th>Monday</th>
+            <th>Tuesday</th>
+            <th>Wednesday</th>
+            <th>Thursday</th>
+            <th>Friday</th>
+        </tr> -->
+        <!-- <fieldset>
+           Box selectors
+        </fieldset> -->
+        <tr>
+            <th colspan="6">Box selectors</th>
+        </tr>
+        <tr>
+
+            <td class="f_1" >grey</td>
+            <td bgcolor="Tomato"  >Tomato</td>
+            <td  class="f_2"  >yellowgreen</td>
+            <td  bgcolor="blue"    >blue</td>
+            <td  id="f_3" >maroon</td>
+            <td  class="f_4" >pink</td>
+            
+            
+
+
+        </tr>
+        <tr>
+            <td class="f_5"  >khaki</td>
+            <td class="f_6" >royalblue</td>
+            <td id="f_7" >gold</td>
+            <td bgcolor="deeppink"  >deepink</td>
+            <td bgcolor="bisque" >bisque</td>
+            <td bgcolor="goldnnerered" >goldnnerered</td>
+        </tr>
+        <tr>
+            <td bgcolor="gold" >gold</td>
+            <td bgcolor="orange" >orange</td>
+            <td bgcolor="bisque" >bisque</td>
+            <td bgcolor="darkgreen" >darkgreen</td>
+            <td bgcolor="lavender" >lavender</td>
+            <td bgcolor="brown" >brown</td>
+        </tr>
+        <tr>
+            <td bgcolor="lavender" >lavender</td>
+            <td bgcolor="gold" >gold</td>
+            <td bgcolor="pink" >pink</td>
+            <td bgcolor="brown" >brown</td>
+            <td bgcolor="blueviolet" >blueviolet</td>
+            <td bgcolor="green" >green</td>
+        </tr>
+        <!-- <tr>
+            <td ></td>
+            <td ></td>
+            <td ></td>
+            <td ></td>
+            <td ></td>
+            <td ></td>
+        </tr> -->
+    </table>
+    <!-- </div> -->
+
+
+    <!-- <label for="cities">Select a City:</label>
+    <select id="cities" name="cities">
+        <option value="new-york">New York</option>
+        <option value="los-angeles">Los Angeles</option>
+        <option value="chicago">Chicago</option>
+        <option value="houston">Houston</option></select> -->
+
+        <!-- <p>Enter your favorite browser name:</p>
+        <input type="text" list="browsers" name="favorite_browser">
+        <datalist id="browsers">
+            <option value="Firefox">
+            <option value="Chrome">    
+            <option value="Internet Explorer">
+            <option value="Opera">
+            <option value="Safari">
+        </datalist> -->/
+
+        <!-- <p style="color:aliceblue">Disk Usage: <meter value="0.2">20%</meter></p>
+        <p>Progress: <progress id="bar" value="0" max="100"><span>0</span>%</progress></p> -->
+        
+        
+
+</body>
+</html>
